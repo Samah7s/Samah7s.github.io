@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230929135136">
+	<title>Funiro</title>
+</head>
+
+<body>
+	<div class="wrapper ">
+		<header class="header">
+	<div class="header__container">
+		<a href="/" class="header__logo logo">Funiro.</a>
+		<div class="header__menu menu">
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class="menu__link">Products</a>
+						<ul class="menu__sub-menu sub-menu">
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Product-1</a></li>
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Product-2</a></li>
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Product-3</a></li>
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Product-4</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="#" class="menu__link">Rooms</a>
+						<ul class="menu__sub-menu sub-menu">
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Room-1</a></li>
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Room-2</a></li>
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Room-3</a></li>
+							<li class="sub-menu__item"><a href="#" class="sub-menu__link">Room-4</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="#" class="menu__link">Inspirations</a></li>
+				</ul>
+			</nav>
+			<button class="menu__icon _icon-burger"></button>
+		</div>
+		<form action="" class="header__form search-form">
+			<button class="search-form__button _icon-search-loop"></button>
+			<input type="text" class="search-form__input" placeholder="Search for minimalist chair">
+		</form>
+		<div class="header__user-block block-user">
+			<a href="#" class="block-user__favorites _icon-favorite"></a>
+			<button id="open-card" href="#" class="block-user__cart _icon-shopping-cart"><span></span></button>
+			<button id="open-popup" href="#" class="block-user__avatar ">
+				<picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="avatar"></picture>
+			</button>
+		</div>
+	</div>
+</header>
+		<main class="main">
+			<section class="main__slider slider-main">
+				<div class="slider-main__container">
+					<div class="slider-main__card main-slider-card">
+						<h1 class="main-slider-card__title">High-Quality
+							Furniture Just
+							For You</h1>
+						<p class="main-slider-card__text">Our furniture is made from selected and best quality materials that are
+							suitable for your dream home</p>
+						<a href="#" class="main-slider-card__link-button">Shop Now</a>
+					</div>
+					<div class="slider-main__controls">
+						<div class="swiper-pagination slider-main__pagination"></div>
+						<div class="slider-main__button slider-main__button_prev _icon-arrow-right"></div>
+						<div class="slider-main__button slider-main__button_next _icon-arrow-right"></div>
+					</div>
+				</div>
+				<div class="swiper slider-main__content">
+					<div class="swiper-wrapper slider-main__wrapper">
+						<div class="swiper-slide slider-main__slide">
+							<picture><source srcset="img/main/slide_1.webp" type="image/webp"><img src="img/main/slide_1.jpg" alt="slide#1"></picture>
+							<div class="slider-main__slide-card slide-card">
+								<h4 class="slide-card__name">Bohauss</h4>
+								<p class="slide-card__description">Luxury big sofa 2-seat</p>
+								<div class="slide-card__price"><span>Rp 17.000.000</span>
+									<a href="#" class="slide-card__link _icon-long-arrow-right"></a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide slider-main__slide"><picture><source srcset="img/main/slide_2.webp" type="image/webp"><img src="img/main/slide_2.jpg" alt="slide#2"></picture>
+							<div class="slider-main__slide-card slide-card">
+								<h4 class="slide-card__name">Bohauss</h4>
+								<p class="slide-card__description">Luxury big sofa 2-seat</p>
+								<div class="slide-card__price"><span>Rp 17.000.000</span>
+									<a href="#" class="slide-card__link _icon-long-arrow-right"></a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide slider-main__slide"><picture><source srcset="img/main/slide_3.webp" type="image/webp"><img src="img/main/slide_3.png" alt="slide#3"></picture>
+							<div class="slider-main__slide-card slide-card">
+								<h4 class="slide-card__name">Bohauss</h4>
+								<p class="slide-card__description">Luxury big sofa 2-seat</p>
+								<div class="slide-card__price"><span>Rp 17.000.000</span>
+									<a href="#" class="slide-card__link _icon-long-arrow-right"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__benefits benefits">
+				<div class="benefits__container">
+					<div class="benefits__item">
+						<img src="img/icons/prize.svg" alt="" class="benefits__icon">
+						<div class="benefits__details">
+							<div class="benefits__name">High Quality</div>
+							<div class="benefits__description">crafted from top materials</div>
+						</div>
+					</div>
+					<div class="benefits__item">
+						<img src="img/icons/check.svg" alt="checked" class="benefits__icon">
+						<div class="benefits__details">
+							<div class="benefits__name">Warrany Protection</div>
+							<div class="benefits__description">Over 2 years</div>
+						</div>
+					</div>
+					<div class="benefits__item">
+						<img src="img/icons/giving.svg" alt="" class="benefits__icon">
+						<div class="benefits__details">
+							<div class="benefits__name">Free Shipping</div>
+							<div class="benefits__description">Order over 150 $</div>
+						</div>
+					</div>
+					<div class="benefits__item">
+						<img src="img/icons/support.svg" alt="support" class="benefits__icon">
+						<div class="benefits__details">
+							<div class="benefits__name">24 / 7 Support</div>
+							<div class="benefits__description">Dedicated support</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__products products">
+				<div class="products__container">
+					<h2 class="products__title">Our Products</h2>
+					<div class="products__list">
+					</div>
+					<button class="products__add-button">Show More</button>
+				</div>
+			</section>
+			<section class="main__rooms rooms">
+				<div class="rooms__container">
+					<div class="rooms__body">
+						<h2 class="rooms__tile">50+ Beautiful rooms inspiration</h2>
+						<p class="rooms__text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+						<a href="" class="rooms__link">Explore More</a>
+					</div>
+					<div class="rooms__slider">
+						<div class="swiper2 rooms-slider">
+							<div class="swiper-wrapper rooms-slider__wrapper">
+								<div class="swiper-slide rooms-slider__slide">
+									<picture><source srcset="img/rooms/image_1.webp" type="image/webp"><img src="img/rooms/image_1.png" alt="room"></picture>
+									<div class="rooms-slider__info room-info-card">
+										<label for="" class="room-info-card__number">01<span></span>Bed Room</label>
+										<h6 class="room-info-card__name">Inner Peace</h6>
+										<a href="" class="room-info-card__link _icon-long-arrow-right"></a>
+									</div>
+								</div>
+								<div class="swiper-slide rooms-slider__slide">
+									<picture><source srcset="img/rooms/image_2.webp" type="image/webp"><img src="img/rooms/image_2.png" alt="room"></picture>
+									<div class="rooms-slider__info room-info-card">
+										<label for="" class="room-info-card__number">02<span></span>Kitchen</label>
+										<h6 class="room-info-card__name">Inner Peace</h6>
+										<div class="room-info-card__link _icon-long-arrow-right"></div>
+									</div>
+								</div>
+								<div class="swiper-slide rooms-slider__slide">
+									<picture><source srcset="img/rooms/image_3.webp" type="image/webp"><img src="img/rooms/image_3.png" alt="room"></picture>
+									<div class="rooms-slider__info room-info-card">
+										<label for="" class="room-info-card__number">03<span></span>Bed room</label>
+										<h6 class="room-info-card__name">Inner Peace</h6>
+										<div class="room-info-card__link _icon-long-arrow-right"></div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class=""></div>
+							<div class=""></div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="main__tips tip-tricks">
+				<div class="tip-tricks__container">
+					<h2 class="tip-tricks__title">Tips & Tricks</h2>
+					<div class="tip-tricks__slider slider-tip-tricks">
+						<div class="slider-tip-tricks__wrapper swiper-wrapper">
+							<div class="swiper-slide slider-tip-tricks__slide">
+								<a href="#" class="slider-tip-tricks__item item-tip-tricks">
+									<div class="item-tip-tricks__img">
+										<picture><source srcset="img/tip-triks/image_1.webp" type="image/webp"><img src="img/tip-triks/image_1.jpg" alt="tip-triks"></picture>
+									</div>
+									<div class="item-tip-tricks__body">
+										<h6 class="item-tip-tricks__title">How to create a living room to love</h6>
+										<p class="item-tip-tricks__date">20 jan 2020</p>
+									</div>
+
+								</a>
+							</div>
+							<a href="#" class="swiper-slide slider-tip-tricks__slide">
+								<div class="slider-tip-tricks__item item-tip-tricks">
+									<div class="item-tip-tricks__img">
+										<picture><source srcset="img/tip-triks/image_2.webp" type="image/webp"><img src="img/tip-triks/image_2.jpg" alt="tip-triks"></picture>
+									</div>
+									<div class="item-tip-tricks__body">
+										<h6 class="item-tip-tricks__title">Solution for clean look working
+											space</h6>
+										<p class="item-tip-tricks__date">10 jan 2020</p>
+									</div>
+
+								</div>
+							</a>
+							<a href="#" class="swiper-slide slider-tip-tricks__slide">
+								<div class="slider-tip-tricks__item item-tip-tricks">
+									<div class="item-tip-tricks__img">
+										<picture><source srcset="img/tip-triks/image_3.webp" type="image/webp"><img src="img/tip-triks/image_3.jpg" alt="tip-triks"></picture>
+									</div>
+									<div class="item-tip-tricks__body">
+										<h6 class="item-tip-tricks__title">Make your cooking activity
+											more fun with good setup</h6>
+										<p class="item-tip-tricks__date">20 jan 2020</p>
+									</div>
+
+								</div>
+							</a>
+							<a href="#" class="swiper-slide slider-tip-tricks__slide">
+								<div class="slider-tip-tricks__item item-tip-tricks">
+									<div class="item-tip-tricks__img">
+										<picture><source srcset="img/tip-triks/image_1.webp" type="image/webp"><img src="img/tip-triks/image_1.jpg" alt="tip-triks"></picture>
+									</div>
+									<div class="item-tip-tricks__body">
+										<h6 class="item-tip-tricks__title">How to create a living room to love</h6>
+										<p class="item-tip-tricks__date">20 jan 2020</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="slider-tip-tricks__contorls">
+							<div class="slider-tip-tricks__button slider-tip-tricks__button_prev _icon-arrow-right"></div>
+							<div class="slider-tip-tricks__button slider-tip-tricks__button_next _icon-arrow-right"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__column">
+			<h6 class="footer__column-title">Funiro.</h6>
+			<ul class="footer__list">
+				<li class="footer__item"><a href="#" class="footer__link">Worldwide furniture store since 2020. We sell over
+						1000+ branded products on our website</a></li>
+				<li class="footer__item"><a href="#" class="footer__link _icon-location">Sawojajar Malang, Indonesia</a></li>
+				<li class="footer__item"><a href="#" class="footer__link _icon-phone">+6289 456 3455</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">www.funiro.com</a></li>
+			</ul>
+		</div>
+		<div class="footer__column">
+			<h6 class="footer__column-title">Menu</h6>
+			<ul class="footer__list">
+				<li class="footer__item"><a href="#" class="footer__link">Products</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">Rooms</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">Inspirations</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">Terms & Policy</a></li>
+			</ul>
+		</div>
+		<div class="footer__column">
+			<h6 class="footer__column-title">Account</h6>
+			<ul class="footer__list">
+				<li class="footer__item"><a href="#" class="footer__link">My Account</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">Checkout</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">My Cart</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">My catalog</a></li>
+			</ul>
+		</div>
+		<div class="footer__column">
+			<h6 class="footer__column-title">Stay Connected</h6>
+			<ul class="footer__list">
+				<li class="footer__item"><a href="#" class="footer__link">Facebook</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">Instagram</a></li>
+				<li class="footer__item"><a href="#" class="footer__link">Twitter</a></li>
+			</ul>
+		</div>
+		<div class="footer__column">
+			<h6 class="footer__column-title">Stay Updated</h6>
+			<form action="#" class="footer__form form-footer">
+				<input type="mail" class="form-footer__input" placeholder="Enter your email">
+				<button type="submit" class="form-footer__button _icon-send"></button>
+			</form>
+		</div>
+	</div>
+</footer>
+		<section id="login-popup" class="popup userpanel-popup">
+	<div lass="popup__wrapper userpanel-popup__wrapper">
+		<div class="userpanel-popup__content popup__content tabs">
+			<div class="tabs__buttons">
+				<button class="tabs__button " data-for-tab="1">Register</button>
+				<button class="tabs__button" data-for-tab="2">Login</button>
+			</div>
+			<div class="tabs__content" data-tab="1">
+				<h3 class="userpanel-popup__title">Register</h3>
+				<form class="userpanel-popup__form">
+					<label class="userpanel-popup__label">
+						<span>Email</span>
+						<input type="email" class="userpanel-popup__input" placeholder="Email...">
+					</label>
+					<label class="userpanel-popup__label">
+						<span>Username</span>
+						<input type="text" class="userpanel-popup__input" placeholder="Email...">
+					</label>
+					<label class="userpanel-popup__label">
+						<span>Password</span>
+						<input type="password" class="userpanel-popup__input" placeholder="Password...">
+					</label>
+					<label class="userpanel-popup__label">
+						<span>Confirm Password</span>
+						<input type="password" class="userpanel-popup__input" placeholder="Password...">
+					</label>
+					<button class="popup__button">Confirm</button>
+				</form>
+			</div>
+			<div class="tabs__content" data-tab="2">
+				<h3 class="userpanel-popup__title">Login</h3>
+				<form class="userpanel-popup__form">
+					<label class="userpanel-popup__label">
+						<span>Email</span>
+						<input type="email" class="userpanel-popup__input" placeholder="Email...">
+					</label>
+					<label class="userpanel-popup__label">
+						<span>Password</span>
+						<input type="password" class="userpanel-popup__input" placeholder="Password...">
+					</label>
+					<button class="popup__button">Confirm</button>
+				</form>
+			</div>
+			<button id="login-closer" type="submit" class="popup__close-button ">&times;</button>
+		</div>
+	</div>
+</section>
+
+<section id="card-popup" class="popup card-popup">
+	<div class="popup__wrapper card-popup__wrapper">
+		<div class="popup__content card-pup__content">
+			<p>This is a card.<br>But not working card.<br>sadge </p>
+			<button id="card-closer" type="submit" class="popup__close-button ">&times;</button>
+		</div>
+	</div>
+</section>
+		
+	</div>
+	<script src="js/app.min.js?_v=20230929135136"></script>
+</body>
+
+</html>
